@@ -12,5 +12,12 @@ namespace webgitrepo.Controllers
         {
             return View();
         }
+
+        public IActionResult List()
+        {
+            List<string> langs = new List<string>() {"Python","Go","Ruby","TS","CS","Java" };
+
+            return View(langs);
+        }
     }
 }
