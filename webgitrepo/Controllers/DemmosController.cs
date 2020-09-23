@@ -19,5 +19,11 @@ namespace webgitrepo.Controllers
 
             return View(langs);
         }
+        
+        public IActionResult Samples()
+        {
+            return View();
+        }
+
     }
 }
